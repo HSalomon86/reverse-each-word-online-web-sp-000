@@ -1,7 +1,7 @@
 def reverse_each_word(string)
+  string = "Hello my name is JOhn"
   array = string.split(" ")
 
-  array.collect {|x| x.reverse}
+return  array.collect {|x| x.reverse}.join(" ")
 
-  return array.join(" ")
 end
